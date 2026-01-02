@@ -1,0 +1,161 @@
+@import "https://fonts.googleapis.com/css2?family=Metal+Mania";
+
+@font-face {
+  font-family: 'Booter - Zero Zero';
+  src: url("/assets/fonts/Booter - Zero Zero.woff2") format("woff2"),
+  url("/assets/fonts/Booter - Zero Zero.woff") format("woff");
+  font-weight: normal;
+  font-size: medium;
+}
+
+.menu1 {
+  background-color: lightcyan;
+}
+
+/*.container {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: #1B9EE0;
+  border-width: 10px;
+  border-color: black;
+}
+
+.input {
+  color: white;
+  border-width: 2px;
+  border-color: black;
+  margin: 4px;
+}
+
+.input:focus {
+  background-color: green;
+}
+
+
+.input:last-of-type {
+  background-color: cadetblue;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.main-header {
+  background-image: url('/assets/images/header-bg.png');
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  padding-bottom: 30px;
+}
+
+* {
+  font-family: Raleway, sans-serif;
+  border-sizing: border-box;
+  color: #7777;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.nav :hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.nav a {
+  color: white;
+  display: inline-block;
+  padding: .5rem;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.band-name {
+  font-size: 4rem;
+  margin: 0;
+  text-align: center;
+  font-family: 'Booter - Zero Zero';
+  font-weight: normal;
+  color: white;
+}
+
+.band-name-large {
+  font-size: 9rem;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 1.5em;
+}
+
+.section-header {
+  font-family: "Metal Mania", serif;
+  font-weight: normal;
+  color: #333;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.about-band-image {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.main-footer {
+  background-color: #56CCf2;
+  color: white;
+  padding: 0.25em 0;
+
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-element {
+  color: white;
+}
